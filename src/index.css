@@ -1,0 +1,94 @@
+body {
+  font-family: 'Baloo 2', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+  text-align: center;
+  margin: auto;
+  margin-top: 50px;
+  max-width: 38rem;
+  padding: 2rem;
+  background-color: #d8aefb;
+  font-weight: 800;
+  text-shadow: 0 0 5px #ffffffaa;
+}
+
+/* Hidden image */
+#myImage {
+  display: none;
+  margin-top: 20px;
+  width: 200px;
+  height: auto;
+}
+
+/* Forms and inputs */
+.form-section {
+  margin-bottom: 20px;
+  border-radius: 7px;
+  box-shadow: 2px 2px 5px rgb(168, 82, 225);
+  transition: transform 0.5s ease-in-out;
+  background-color: #e4c8fa;
+}
+
+input, select, button {
+  padding: 8px;
+  font-size: 16px;
+  margin: 5px;
+  border-radius: 8px;
+}
+
+/* Category grouping */
+.category-block {
+  margin-top: 30px;
+  border-radius: 8px;
+  background-color: #e4c8fa;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  margin: 5px 0;
+}
+
+/* Delete button */
+.delete-btn {
+  background-color: #490e76;
+  color: white;
+  border: none;
+  padding: 4px 8px;
+  margin-left: 10px;
+  cursor: pointer;
+  border-radius: 8px;
+}
+
+/* Category titles */
+.category-title {
+  font-size: 20px;
+  margin-bottom: 10px;
+  text-decoration: underline;
+}
+
+button:hover {
+  transform: scale(1.05);
+  transition: transform 0.2s ease;
+}
+
+button:active {
+  transform: scale(0.98);
+}
+
+.category-block-new {
+  max-width: 350px;
+  border-radius: 15px;
+  box-shadow: 2px 2px 5px rgb(135, 22, 211);
+  transition: transform 0.5s ease-in-out;
+  background-color: #f5e9ff;
+}
+
+#categoryDisplay {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; /* or space-between / flex-start */
+  gap: 20px;
+  margin-top: 20px;
+}

@@ -1,0 +1,8 @@
+toiletries||water bottle||1
+games||cards||1
+games||book||1
+electronics||phone||1
+electronics||laptop||1
+electronics||apple watch||1
+electronics||chargers||2
+electronics||CAMERA||1
